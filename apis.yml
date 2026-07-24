@@ -1,7 +1,29 @@
 aid: bioscience-tj
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bioscience-tj.png
 name: bioscience-tj
-description: bioscience-tj is a company surfaced as a portfolio company of qiming and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Bioscience (Tianjin) Diagnostic Technology Co., Ltd. (博奥赛斯) is a Chinese
+  in-vitro diagnostics (IVD) company that integrates R&D, manufacturing,
+  marketing, and technical support for diagnostic instruments and reagents. Its
+  product lines span chemiluminescence immunoassay (CLIA) and point-of-care
+  testing (POCT) analyzers together with the supporting reagent kits used in
+  clinical laboratories and hospitals. The company is headquartered in Tianjin,
+  China and is a healthcare portfolio company backed by Qiming Venture Partners.
+  It manufactures medical diagnostic devices and consumables rather than
+  publishing a public developer API; this profile is maintained in the API
+  Evangelist network as a company lead, and no public API, developer portal,
+  documentation, or specification surface has been found at this time.
 url: https://raw.githubusercontent.com/api-evangelist/bioscience-tj/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Healthcare
+- Diagnostics
+- In-Vitro Diagnostics
+- Medical Devices
+- Biotechnology
+- Reagents
+- Tianjin
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,8 @@ maintainers:
 common:
 - type: Website
   url: https://bioscience-tj.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
